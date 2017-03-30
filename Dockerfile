@@ -1,6 +1,6 @@
 FROM centos:7
 
-ENV NOMAD_VERSION 0.3.2
+ENV NOMAD_VERSION 0.5.5
 
 RUN yum install -y unzip \
  && curl -O https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_linux_amd64.zip\
